@@ -79,3 +79,17 @@ box-shadow: inset -1px 0px 21px 0px rgba(0,0,0,1);
     position: sticky;
     top: 0;
 }
+#startbild{
+    width: 3%;
+    float: left;
+    margin: -3.4% 2% 0% 49%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-transition: box-shadow 0.35s;
+    -moz-transition: box-shadow 0.35s;
+    -o-transition: box-shadow 0.35s;
+    transition: box-shadow 0.35s;
+}
+#startbild:hover{
+    box-shadow: 5px 5px 5px 0px rgba(119, 119, 119, 0.75);
+}
