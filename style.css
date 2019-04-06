@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
     font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -9,9 +9,9 @@ header {
     background-size: cover;
     position: relative;
     min-height: 300px;
+    /* parralax effekt css*/
     background-attachment: fixed;
     background-position: center;
-    /* parralax effekt css*/
     background-repeat: no-repeat;
     /* parralax effekt css*/
 }
@@ -72,20 +72,20 @@ h1 {
 
 nav {
     background: linear-gradient(to bottom, #296791 0%, #1b3b54 50%, #163c54 51%, #152638 100%);
-    
 }
-main{
-height: 100%;
--webkit-box-shadow: inset -1px 0px 21px 0px rgba(0,0,0,1);
--moz-box-shadow: inset -1px 0px 21px 0px rgba(0,0,0,1);
-box-shadow: inset -1px 0px 21px 0px rgba(0,0,0,1);
+
+main {
+    min-height: 100%;
+    padding-top: 10%;
 }
-#navdiv{
+
+#navdiv {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
-#startbild{
+
+#startbild {
     width: 3%;
     float: left;
     margin: -3.4% 2% 0% 49%;
@@ -96,6 +96,42 @@ box-shadow: inset -1px 0px 21px 0px rgba(0,0,0,1);
     -o-transition: box-shadow 0.35s;
     transition: box-shadow 0.35s;
 }
-#startbild:hover{
+
+#startbild:hover {
     box-shadow: 5px 5px 5px 0px rgba(119, 119, 119, 0.75);
+}
+
+.ueber1 {
+    color: white;
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+.ueber1hr {
+    width: 100%;
+    border: 2px solid white;
+    margin: 1% 0% 6%;
+}
+
+.maintextdiv {
+    margin: 0% 20%;
+}
+
+.mainpicturediv {}
+
+.standartp {
+    text-align: justify;
+    color: rgb(204, 203, 203);
+    margin: 2% 0% 7% 0%
+}
+
+.stylediv {
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#stylefoto1 {
+    background-image: url("bilder/mojave-night.jpg");
 }
