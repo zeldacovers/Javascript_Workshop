@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: url(bilder/future-computer-keyboard-keys-web-header.jpg);
+    background-size: cover;
+    position: relative;
+    height: 251px;
+
+}
+
+body{
+    margin: 0;
+}
+
+.titletext {
+    background-color: #ffffffde;
+    color: rgb(0, 0, 0);
+    font-size: 6vw;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    width: 55%;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 22%;
+    mix-blend-mode: screen;
+}
