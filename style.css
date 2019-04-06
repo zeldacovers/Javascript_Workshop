@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth ;
 }
 
 header {
     background-image: url("bilder/background-home.jpg");
     background-size: cover;
     position: relative;
-    height: 300px;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    /* parralax effekt css*/
+    background-repeat: no-repeat;
+    /* parralax effekt css*/
 }
 
 body {
