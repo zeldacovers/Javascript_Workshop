@@ -76,7 +76,7 @@ nav {
 
 main {
     min-height: 100%;
-    padding-top: 10%;
+    padding: 0;
 }
 
 #navdiv {
@@ -112,6 +112,7 @@ main {
 .stylediv {
     background: rgba(0, 0, 0, .65);
     height: auto;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +127,7 @@ main {
     /*damit es dünkler wird*/
     background-blend-mode: darken;
     /*damit es dünkler wird*/
-    padding: 8% 0% 3% 0%;
+    padding: 0.01% 0% 0.01% 0%;
 }
 
 /*hier kommen alle spezifischen fotos hin*/
@@ -148,6 +149,7 @@ main {
 
 .maintextdiv {
     margin: 0% 20%;
+    margin-top: 10%
 }
 
 .mainpicturediv {
@@ -155,8 +157,8 @@ main {
     display: block;
 }
 .vorgestellteimg{
-    width: 474px;
-    height: 301px;
+    width: 423px;
+    height: 246px;
 }
 .unterteilungsdiv {
     margin-bottom: 5%;
