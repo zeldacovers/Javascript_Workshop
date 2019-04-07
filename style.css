@@ -83,6 +83,7 @@ main {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 #startbild {
@@ -101,39 +102,48 @@ main {
     box-shadow: 5px 5px 5px 0px rgba(119, 119, 119, 0.75);
 }
 
-
-
 .standartp {
     text-align: justify;
     color: rgb(204, 203, 203);
-    margin: 2% 0% 7% 0%
+    margin: 2% 0% 4% 0%;
+    font-size: 1vw;
 }
 
 .stylediv {
+    background: rgba(0, 0, 0, .65);
     height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-box-shadow: inset 1px 1px 17px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 1px 17px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 1px 17px 3px rgba(0, 0, 0, 0.75);
+    
 }
 
 #stylefoto1 {
-    background-image: url("bilder/mojave-night.jpg")
+    background-image: url("bilder/wp2465921.png");
+    /*damit es dünkler wird*/
+    background-blend-mode: darken;
+    /*damit es dünkler wird*/
+    padding: 8% 0% 3% 0%;
 }
 
-
-
-
+/*hier kommen alle spezifischen fotos hin*/
 
 .ueber1 {
     color: white;
     text-align: center;
     font-size: 2.2vw;
 }
-
+.ueber2{
+    color: white;
+    text-align: center;
+}
 .ueber1hr {
     width: 100%;
     border: 2px solid white;
-    margin: 1% 0% 6%;
+    margin: 1% 0% 3% 0%;
 }
 
 .maintextdiv {
@@ -141,5 +151,15 @@ main {
 }
 
 .mainpicturediv {
-    
+    margin-top: 8%;
+    display: block;
+}
+.vorgestellteimg{
+    width: 474px;
+    height: 301px;
+}
+.unterteilungsdiv {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
