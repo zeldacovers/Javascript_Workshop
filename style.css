@@ -136,6 +136,14 @@ main {
     /*damit es dünkler wird*/
     padding: 0.01% 0% 0.01% 0%;
 }
+#stylefoto2 {
+    background-image: url("bilder/mojave-night.jpg");
+    /*damit es dünkler wird*/
+    background-blend-mode: darken;
+    /*damit es dünkler wird*/
+    padding: 0.01% 0% 0.01% 0%;
+}
+
 
 /*hier kommen alle spezifischen fotos hin*/
 
