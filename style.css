@@ -180,3 +180,9 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+#rechtsdiv{
+    display: flex;
+    justify-content: center;
+    margin: -3% 0% 7% 0%;
+
+}
