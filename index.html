@@ -29,7 +29,7 @@
             <ul id="navul">
                 <a>
                     <li class="navli"> <a href="#diashow" class="navbara">Diashow</a></li>
-                    <li class="navli"> <a href="" class="navbara">Registerkarten</a></li>
+                    <li class="navli"> <a href="#akkordeon" class="navbara">Ziehharmonika</a></li>
                     <li class="navli"> <a href="" class="navbara">Bildanzeige</a></li>
                     <li class="navli"> <a href="" class="navbara">Akkordeon</a></li>
             </ul>
@@ -62,6 +62,7 @@
 
 
 
+
         <div class="stylediv" id="stylefoto1">
             <div class="maintextdiv">
                 <h1 class="ueber1">Welche Inhaltsfelder Vorgestellt werden:</h1>
@@ -70,7 +71,7 @@
             <div class="mainpicturediv">
                 <div class="unterteilungsdiv">
 
-                        <img data-aos="flip-right" class="vorgestellteimg"
+                    <img data-aos="flip-right" class="vorgestellteimg"
                         src="https://tribulant.com/img/browser/gallery/browser1.png" alt="diashow">
                     <img data-aos="flip-left" class="vorgestellteimg"
                         src="https://elbnetz.com/wp-content/uploads/2016/12/Akkordeon.png" alt="akkordeon">
@@ -136,15 +137,43 @@
         </div>
 
 
-        <div class="maintextdiv">
-            <h1 class="ueber1" id="diashow">Interaktive Diashow</h1>
+        <div class="maintextdiv" id="akkordeon">
+            <h1 class="ueber1">Ziehharmonika Anzeige (Akkordeon)</h1>
             <hr class="ueber1hr">
-            <p class="standartp">In einem Diashow-Element werden mehrere Inhalte nebeneinender platziert, aber immer nur
-                einer auf einmal angezeigt. In der Anzahl gleitet dann ein "Dia" nach dem anderen. Diese Diashow welche
-                Sie unten finden werden, lädt mehrere Inhaltsvfelder, zeigt aber immer nur eines auf einmal an.
-                Ausserdem zeigt es Schaltflächen an, mit denen die Benutzer die einzelnen Dias oder Folien aufrufen
-                können. Anhand eines Timers werden die Folien nach einem festgelegten Zeitraum automatisch gewechselt.
+            <p class="standartp"> Wenn Sie auf einen Titel in der Ziehharmonika-Anzeige (Akkordeon) klicken, wird das
+                zugehörige Fled erweitert und zeigt seinen Inhalt. Grundlage einer Ziehharmonika Anzeige ist eine
+                ungeordnete Liste (in einem ul Element). Jedes li Element ist ein Eintrag in der Zieharmonika und
+                enthält eine Sichtbare Beschriftung (Button) und ein verborgenes Div mit dem Inhalt.
             </p>
+
+        </div>
+
+
+
+        <div class="stylediv" id="stylefoto3">
+
+
+
+                <ul class="accordion">
+                        <li>
+                          <button class="accordion-control">Classics</button>
+                          <div class="accordion-panel" style="display: none;">
+                            <p class="accordp">If you like your flavors traditional, Monsieur Pigeon's classic marshmallows won't disappoint. With luxuriously <strong>Velvety Vanilla</strong>, <strong>Charming Chocolate</strong>, and <strong>Sumptuous Strawberry</strong>, the favorites you love are treated with the respect and dignity they deserve!</p>
+                          </div>
+                        </li>
+                        <li>
+                          <button class="accordion-control">The Flower Series</button>
+                          <div class="accordion-panel" style="display: none;">
+                            <p class="accordp">Take your tastebuds for a gentle stroll through an English garden filled with Monsieur Pigeon's beautifully fragrant Flower Series marshmallows. With three sweetly floral options: <strong>Elderberry</strong>, <strong>Rose Petal</strong>, and <strong>Chrysanthemum</strong> - all edible and all naturally flavored - they will have you dreaming of butterflies and birdsong in no time.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <button class="accordion-control">Salt o' The Sea</button>
+                          <div class="accordion-panel" style="display: none;">
+                            <p >Ahoy! If you long for a taste of organic sea salt mixed in with your sweet Monsieur Pigeon marshmallows, look no further than our Salt o' the Sea range. Featuring two delicious flavors: <strong>Salted Caramel</strong> and <strong>Cashew Butter</strong>, this sweetly salty duo will expand your taste horizons.</p>
+                          </div>
+                        </li>
+                      </ul>
 
         </div>
 

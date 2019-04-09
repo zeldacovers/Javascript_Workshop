@@ -144,6 +144,15 @@ main {
     padding: 0.01% 0% 0.01% 0%;
 }
 
+#stylefoto3 {
+    background-image: url("https://wallpapercave.com/wp/wp3506553.jpg");
+    /*damit es dünkler wird*/
+    background-blend-mode: darken;
+    /*damit es dünkler wird*/
+    padding: 0.01% 0% 0.01% 0%;
+}
+
+
 
 /*hier kommen alle spezifischen fotos hin*/
 
@@ -186,6 +195,39 @@ main {
     margin: -3% 0% 7% 0%;
 
 }
+
+.accordion, .menu {
+    background-color: #f2f2f2;
+    color: #666;
+    margin: 10% 15%;
+    padding: 0;
+    overflow: auto;
+}
+.accordion-control {
+    background: linear-gradient(to bottom, #483e2f 0%, #474035 50%, #3b352c 51%, #42382a 100%);
+    color: #fff;
+    display: block;
+    font-size: 1.2vw;
+    width: 100%;
+    padding: 1.5em 0.5em 1.5em 0.7em;
+    margin: 0;
+    border: none;
+}
+
+.accordion-panel {
+    display: none;
+    color: #c7c6c7;
+    background: linear-gradient(to bottom, #675b48 0%, #7c7262 50%, #807565 51%, #5e5447 100%);
+    font-size: 1vw;
+    padding: 2% 7% 2% 7%;
+}
+.accordp{
+    margin: 0;
+}
+
+
+
+
 
 @media (max-width: 650px){
 
